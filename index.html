@@ -7,7 +7,7 @@
     <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script type="text/javascript">
         (function(){
-            emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS user ID
+            emailjs.init("ekRH7jhSC1bx7rnU-"); // Replace with your EmailJS user ID
         })();
     </script>
 </head>
@@ -24,8 +24,8 @@
         document.getElementById('emailForm').addEventListener('submit', function(event) {
             event.preventDefault();
 
-            const serviceID = 'YOUR_SERVICE_ID'; // Replace with your Service ID
-            const templateID = 'YOUR_TEMPLATE_ID'; // Replace with your Template ID
+            const serviceID = 'service_w40idmf'; // Replace with your Service ID
+            const templateID = 'template_uvt4lc7'; // Replace with your Template ID
 
             emailjs.sendForm(serviceID, templateID, this)
                 .then(() => {
