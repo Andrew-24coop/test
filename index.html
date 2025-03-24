@@ -16,7 +16,7 @@
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
                 // these IDs from the previous steps
-                emailjs.sendForm('service_w40idmf', 'contact-form', this)
+                emailjs.sendForm('service_w40idmf', 'template_uvt4lc7', this)
                     .then(() => {
                         console.log('SUCCESS!');
                     }, (error) => {
